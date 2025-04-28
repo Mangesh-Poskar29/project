@@ -49,16 +49,7 @@ const Services: React.FC = () => {
       description: "Responsive and dynamic web applications built with modern frameworks and technologies.",
       icon: <Globe size={24} />
     },
-    {
-      title: "Cloud Solutions",
-      description: "Scalable, secure, and reliable cloud infrastructure and migration services.",
-      icon: <Cloud size={24} />
-    },
-    {
-      title: "UI/UX Design",
-      description: "User-centered design that enhances user satisfaction and improves product usability.",
-      icon: <PenTool size={24} />
-    },
+  
     {
       title: "Digital Transformation",
       description: "Strategic guidance to leverage digital technologies for business growth and innovation.",

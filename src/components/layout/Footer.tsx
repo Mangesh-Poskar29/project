@@ -53,8 +53,6 @@ const Footer: React.FC = () => {
               <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Custom Software Development</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Mobile App Development</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Web Development</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Cloud Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">UI/UX Design</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Digital Transformation</Link></li>
             </ul>
           </div>
@@ -64,15 +62,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 mt-1 flex-shrink-0 text-secondary-400" />
-                <span className="text-gray-300">Konkan Coast, Maharashtra, India</span>
+                <span className="text-gray-300">Konkfinity Tech Hub, Guhagar, Ratnagiri, Maharashtra, India</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-3 flex-shrink-0 text-secondary-400" />
-                <span className="text-gray-300">+91 98765 43210</span>
+                <span className="text-gray-300">+91 7774966707</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 flex-shrink-0 text-secondary-400" />
-                <span className="text-gray-300">info@konkfinity.com</span>
+                <span className="text-gray-300">konkfinity@gmail.com</span>
               </li>
             </ul>
           </div>

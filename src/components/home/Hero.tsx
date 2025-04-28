@@ -4,8 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import WavesBackground from '../3d/WavesBackground';
 import Button from '../common/Button';
-import ServerModel from '../3d/ServerModel';
-
+import Logo from '../../components/logo.png';
 const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -50,22 +49,20 @@ const Hero: React.FC = () => {
           </motion.div>
         </div>
         
-        <div className="w-full md:w-1/2 mt-12 md:mt-0 h-[400px] md:h-[500px]">
+        <div className="w-full md:w-1/2 mt-12 md:mt-0 flex justify-center items-center h-[400px] md:h-[500px]">
           <motion.div 
-            className="w-full h-full"
+            className="w-32 h-32 flex justify-center items-center"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <Suspense fallback={<div className="w-full h-full flex items-center justify-center text-white">Loading 3D Model...</div>}>
-              <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
-                <ambientLight intensity={0.5} />
-                <pointLight position={[10, 10, 10]} intensity={1} />
-                <spotLight position={[-10, 10, 10]} angle={0.15} penumbra={1} intensity={1} castShadow />
-                <ServerModel />
-                <OrbitControls enableZoom={false} enablePan={false} autoRotate autoRotateSpeed={1} />
-              </Canvas>
-            </Suspense>
+            <motion.img 
+              src={Logo}  // Your logo source here
+              alt="Logo"
+              className="w-full h-full object-contain"
+              animate={{ rotateY: 360 }} // Apply the rotation along the Y-axis
+              transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
+            />
           </motion.div>
         </div>
       </div>

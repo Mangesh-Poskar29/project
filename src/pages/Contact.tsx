@@ -67,8 +67,8 @@ const Contact: React.FC = () => {
                   content={
                     <p>
                       Konkfinity Tech Hub<br />
-                      Coastal Road, Ratnagiri<br />
-                      Maharashtra, India 415612
+                      Guhagar, Ratnagiri<br />
+                      Maharashtra, India 415703
                     </p>
                   }
                 />
@@ -78,8 +78,7 @@ const Contact: React.FC = () => {
                   title="Phone"
                   content={
                     <p>
-                      +91 98765 43210<br />
-                      +91 87654 32109
+                      +91 7774966707<br />
                     </p>
                   }
                 />
@@ -89,8 +88,7 @@ const Contact: React.FC = () => {
                   title="Email"
                   content={
                     <p>
-                      info@konkfinity.com<br />
-                      support@konkfinity.com
+                      konkfinity@gmail.com<br />
                     </p>
                   }
                 />
@@ -101,7 +99,7 @@ const Contact: React.FC = () => {
                   content={
                     <p>
                       Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 10:00 AM - 2:00 PM<br />
+                      Saturday: Closed<br />
                       Sunday: Closed
                     </p>
                   }

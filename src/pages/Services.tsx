@@ -83,30 +83,7 @@ const Services: React.FC = () => {
         "Progressive web apps"
       ]
     },
-    {
-      icon: <Cloud size={32} />,
-      title: "Cloud Solutions",
-      description: "Scalable, secure, and reliable cloud infrastructure and migration services.",
-      features: [
-        "Cloud architecture design",
-        "Migration to cloud platforms",
-        "Serverless applications",
-        "DevOps implementation",
-        "Continuous integration/deployment"
-      ]
-    },
-    {
-      icon: <PenTool size={32} />,
-      title: "UI/UX Design",
-      description: "User-centered design that enhances user satisfaction and improves product usability.",
-      features: [
-        "User research and personas",
-        "Wireframing and prototyping",
-        "Visual design and branding",
-        "Usability testing",
-        "Design systems creation"
-      ]
-    },
+  
     {
       icon: <Lightbulb size={32} />,
       title: "Digital Transformation",
@@ -119,18 +96,7 @@ const Services: React.FC = () => {
         "Technology roadmap creation"
       ]
     },
-    {
-      icon: <Zap size={32} />,
-      title: "AI & Machine Learning",
-      description: "Intelligent solutions that leverage data to provide insights and automate processes.",
-      features: [
-        "Machine learning models",
-        "Computer vision applications",
-        "Natural language processing",
-        "Predictive analytics",
-        "AI integration into existing systems"
-      ]
-    },
+  
     {
       icon: <Users size={32} />,
       title: "IT Consulting",
@@ -281,12 +247,12 @@ const Services: React.FC = () => {
             {[
               { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
               { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-              { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-              { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
+              { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+              { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
               { name: "Flutter", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
               { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
               { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-              { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" }
+              { name: "PostgreSQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
             ].map((tech, index) => (
               <motion.div 
                 key={index}

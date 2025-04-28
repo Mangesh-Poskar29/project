@@ -42,7 +42,7 @@ const About: React.FC = () => {
             >
               <SectionTitle 
                 title="Our Story" 
-                subtitle="Founded in 2020, Konkfinity emerged as a passionate endeavor to bridge the technology gap in the Konkan region."
+                subtitle="Founded in 2025, Konkfinity emerged as a passionate endeavor to bridge the technology gap in the Konkan region."
               />
               
               <p className="text-gray-600 mb-6">
@@ -71,8 +71,8 @@ const About: React.FC = () => {
                 className="rounded-xl shadow-xl w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary-600 text-white p-6 rounded-xl shadow-lg max-w-xs">
-                <p className="font-semibold text-lg mb-2">Founded: 2020</p>
-                <p>From a small team of 3 to a thriving company of 15+ tech professionals</p>
+                <p className="font-semibold text-lg mb-2">Founded: 2025</p>
+                <p>Empowering Tomorrow, Inspired by Konkan</p>
               </div>
             </motion.div>
           </div>
@@ -149,13 +149,13 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             {[
               {
-                name: 'Anish Patel',
+                name: 'Founder 1',
                 role: 'Founder & CEO',
                 image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
                 bio: 'With over 10 years of experience in software development, Anish leads Konkfinity with a vision to make Konkan a tech innovation hub.'
               },
               {
-                name: 'Priya Desai',
+                name: 'Founder 2',
                 role: 'CTO',
                 image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
                 bio: 'Priya oversees all technical aspects of the company, bringing her expertise in cloud architecture and AI to drive innovation.'
