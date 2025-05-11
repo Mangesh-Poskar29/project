@@ -119,7 +119,7 @@ const Waves = () => {
   });
 
   return (
-    <mesh ref={mesh} rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]}>
+    <mesh ref={mesh} rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 1]}>
       <planeGeometry args={[20, 20, 64, 64]} />
       <shaderMaterial 
         ref={shaderRef}

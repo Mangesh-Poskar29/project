@@ -49,9 +49,9 @@ const Hero: React.FC = () => {
           </motion.div>
         </div>
         
-        <div className="w-full md:w-1/2 mt-12 md:mt-0 flex justify-center items-center h-[400px] md:h-[500px]">
+        <div className="w-full md:w-1/2 mt-12 mb-12 md:mt-0 md:mb-0 flex justify-center items-center h-[400px] md:h-[500px]">
           <motion.div 
-            className="w-32 h-32 flex justify-center items-center"
+            className="w-64 h-64 flex justify-center items-center"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
