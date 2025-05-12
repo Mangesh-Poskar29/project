@@ -40,19 +40,19 @@ const AboutSection: React.FC = () => {
             
             <div className="grid grid-cols-2 gap-6 mt-8 mb-8">
               <div className="text-center">
-                <h4 className="text-4xl font-bold text-primary-600">100+</h4>
+                <h4 className="text-4xl font-bold text-primary-600">10+</h4>
                 <p className="text-gray-600 mt-2">Successful Projects</p>
               </div>
               <div className="text-center">
-                <h4 className="text-4xl font-bold text-primary-600">50+</h4>
+                <h4 className="text-4xl font-bold text-primary-600">2+</h4>
                 <p className="text-gray-600 mt-2">Happy Clients</p>
               </div>
               <div className="text-center">
-                <h4 className="text-4xl font-bold text-primary-600">15+</h4>
+                <h4 className="text-4xl font-bold text-primary-600">2</h4>
                 <p className="text-gray-600 mt-2">Team Members</p>
               </div>
               <div className="text-center">
-                <h4 className="text-4xl font-bold text-primary-600">5+</h4>
+                <h4 className="text-4xl font-bold text-primary-600">3+</h4>
                 <p className="text-gray-600 mt-2">Years Experience</p>
               </div>
             </div>

@@ -149,40 +149,16 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             {[
               {
-                name: 'Founder 1',
-                role: 'Founder & CEO',
+                name: 'Mangesh Poskar',
+                role: 'Founder & Developer',
                 image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-                bio: 'With over 10 years of experience in software development, Anish leads Konkfinity with a vision to make Konkan a tech innovation hub.'
+                bio: 'With over 1 years of experience in software development, Mangesh leads Konkfinity with a vision to make Konkan a tech innovation hub.'
               },
               {
-                name: 'Founder 2',
-                role: 'CTO',
+                name: 'Rohit Goythale',
+                role: 'Founder & CTO',
                 image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-                bio: 'Priya oversees all technical aspects of the company, bringing her expertise in cloud architecture and AI to drive innovation.'
-              },
-              {
-                name: 'Rahul Sharma',
-                role: 'Design Director',
-                image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-                bio: 'Rahul combines his creative vision with user-centered design principles to create exceptional digital experiences.'
-              },
-              {
-                name: 'Meera Joshi',
-                role: 'Lead Developer',
-                image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-                bio: 'Meera brings technical excellence to every project, specializing in full-stack development and performance optimization.'
-              },
-              {
-                name: 'Arjun Naik',
-                role: 'Mobile Specialist',
-                image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-                bio: 'Arjun leads our mobile development initiatives, creating seamless experiences across iOS and Android platforms.'
-              },
-              {
-                name: 'Neha Kadam',
-                role: 'Project Manager',
-                image: 'https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-                bio: 'Neha ensures that all our projects are delivered on time and exceed client expectations through meticulous planning.'
+                bio: 'Rohit oversees all technical aspects of the company, bringing her expertise in cloud architecture and AI to drive innovation.'
               }
             ].map((member, index) => (
               <motion.div 
